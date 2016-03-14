@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='main.css' rel='stylesheet' type 'text/css'>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="text-center">
+    <h1 class="title">Your Local Weather</h1>
+  </div>
+
+  <div class="col-xs-12 text-center" id="data">
+    <div class="jumbotron content">It is currently <span id="weather"></span> °<span id="temp-scale"></span> in <span id="city"></span><span id="icon"></span> 
+    
+    </div>
+    <button class="btn btn-default" id="scale-toggle"><span id="button-text"></span></button>
+    <br><br>
+    Powered by <a href="http://openweathermap.org">OpenWeatherMap</a>
+  </div>
+
+</div>
+</body>
